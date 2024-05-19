@@ -3,6 +3,7 @@ package test_project;
 import java.util.Scanner;
 
 public class Student {
+	
 
 	private String name = "";
 	private int marks = 0;
@@ -20,6 +21,7 @@ public class Student {
 		} catch (Exception e) {
 			System.out.println("An error occurred: " + e.getMessage());
 		}
+	
 	}
 
 	public void showDetails() {
